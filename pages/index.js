@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import doc from '../public/resumes/Pellegrino_Resume.docx'
 
 export default function Home() {
   return (
@@ -54,7 +53,7 @@ export default function Home() {
             <a className="d-link"> .pdf </a>
           </Link>
           ||
-          <Link href="{doc}">
+          <Link href="">
             <a className="d-link"> .docx</a>
           </Link>
         </div>
@@ -62,7 +61,7 @@ export default function Home() {
 
       <footer>
           Powered by{' '}
-        <img src="/images/coffee.jpeg" alt="Coffee Cup" className="logo" />
+        <img src="/images/coffee.png" alt="Coffee Cup" className="logo" />
       </footer>
 
       <style jsx>{`
@@ -199,7 +198,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 2em;
         }
 
         @media (max-width: 600px) {
