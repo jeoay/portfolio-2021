@@ -49,7 +49,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="resume">Download Resume &rarr;
-          <Link href="/projects">
+          <Link href="/">
             <a className="d-link"> .pdf </a>
           </Link>
           ||
